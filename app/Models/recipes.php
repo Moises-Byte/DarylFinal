@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class recipes extends Model
 {
@@ -25,4 +26,4 @@ class recipes extends Model
         return $this->belongsTo(chefs::class);
     }
 }
-}
+
